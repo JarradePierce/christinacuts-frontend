@@ -97,7 +97,7 @@
   font-family: 'Libre Baskerville', serif;
 }
 p.card-text{
-  font-size: 10px;
+  font-size: 15px;
 }
 .card{
   width: 100%;
@@ -265,5 +265,10 @@ textarea.form-control{
   }
   .card8{
     visibility: hidden;
+  }
+  .testimonial-card{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
