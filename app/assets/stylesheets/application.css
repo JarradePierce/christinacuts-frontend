@@ -224,13 +224,15 @@ textarea.form-control{
 
 @media (max-width: 1000px) and (min-width: 200px){
   .nav{
-    position: fixed;
+    position: static;
     z-index: 1;
-    top: 0;
+    width: 100%;
+  }
+  .dropdown{
     width: 100%;
   }
   .home-intro-header{
-    padding-top: 20%;
+    padding-top: 15%;
   }
   .list-group-item.price-item{
     width: 100%;
@@ -243,12 +245,6 @@ textarea.form-control{
   .book-now-container{
     width: 100%;
   }
-  .dropdown-toggle{
-    width: 100%;
-  }
-  .dropdown{
-    width: 100%;
-  } 
 
 }
 
